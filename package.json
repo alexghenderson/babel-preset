@@ -1,0 +1,25 @@
+{
+  "name": "@alexghenderson/babel-preset",
+  "version": "1.1.0",
+  "description": "Babel preset for react, emotion, and root imports",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "@wordpress/babel-plugin-import-jsx-pragma": "^2.1.0",
+    "babel-plugin-dynamic-import-node": "^2.2.0",
+    "babel-plugin-emotion": "^10.0.9",
+    "babel-plugin-root-import": "^6.1.0"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0-0"
+  }
+}
